@@ -1,3 +1,6 @@
 <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
-  <p class = 'text-center'> Home</p>
+  <p class="text-center">Home</p>
+
+  Name: <input [(ngModel)]="name" type="text" />
+  <h1>{{ name }}</h1>
 </div>

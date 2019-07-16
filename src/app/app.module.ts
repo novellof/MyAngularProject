@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { BaseComponent } from './base/base.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BaseComponent } from './base/base.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    TooltipModule.forRoot()
+    TooltipModule.forRoot(),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,6 +11,10 @@ import { myAnimation } from '../animations';
 })
 export class HomeComponent extends BaseComponent implements OnInit {
  
+
+  name:string = "Hello"
+  
+
   constructor() { 
     super();
   }
@@ -18,6 +22,7 @@ export class HomeComponent extends BaseComponent implements OnInit {
   ngOnInit() {
     this.toggle();
   }
+
 
 
 }
